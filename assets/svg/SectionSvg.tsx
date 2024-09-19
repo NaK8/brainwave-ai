@@ -1,16 +1,16 @@
 import PlusSvg from "./PlusSvg";
 
-const SectionSvg = ({ crossesOffset }) => {
+const SectionSvg = ({ crossesOffset }: { crossesOffset?: string }) => {
   return (
     <>
       <PlusSvg
-        className={`hidden absolute -top-[0.3125rem] left-[1.5625rem] ${
+        className={`absolute left-[1.5625rem] top-[-0.3125rem] hidden ${
           crossesOffset && crossesOffset
         } pointer-events-none lg:block xl:left-[2.1875rem]`}
       />
 
       <PlusSvg
-        className={`hidden absolute  -top-[0.3125rem] right-[1.5625rem] ${
+        className={`absolute right-[1.5625rem] top-[-0.3125rem] hidden ${
           crossesOffset && crossesOffset
         } pointer-events-none lg:block xl:right-[2.1875rem]`}
       />
