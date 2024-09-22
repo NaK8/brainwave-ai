@@ -40,7 +40,7 @@ const Rings = () => {
 export const BackgroundCircles = ({
   parallaxRef,
 }: {
-  parallaxRef: React.MutableRefObject<"div"> | null;
+  parallaxRef?: React.RefObject<HTMLDivElement>;
 }) => {
   const [mounted, setMounted] = useState(false);
 
@@ -76,11 +76,6 @@ export const BackgroundCircles = ({
               mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           />
-          {/* <div
-            className={`transit -ml-1 mt-[12.9rem] hidden size-4 rounded-full bg-gradient-to-b from-[#B9AEDF] to-[#1A1A32] transition-transform duration-500 ease-out xl:block ${
-              mounted ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-            }`}
-          /> */}
         </div>
 
         <div className="absolute bottom-1/2 left-1/2 h-1/2 w-0.25 origin-bottom rotate-[-65deg]">
