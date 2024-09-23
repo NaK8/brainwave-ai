@@ -3,6 +3,7 @@ import Benefits from "@/sections/Benefits";
 import Header from "@/sections/Header";
 import Hero from "@/sections/Hero";
 import Collaboration from "@/sections/Collaboration";
+import Services from "@/sections/Services";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <Benefits />
         <Collaboration />
+        <Services />
       </div>
       <ButtonGradient />
     </>
