@@ -4,6 +4,9 @@ import Header from "@/sections/Header";
 import Hero from "@/sections/Hero";
 import Collaboration from "@/sections/Collaboration";
 import Services from "@/sections/Services";
+import Pricing from "@/sections/Pricing";
+import Roadmap from "@/sections/Roadmap";
+import Footer from "@/sections/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +17,9 @@ export default function Home() {
         <Benefits />
         <Collaboration />
         <Services />
+        <Pricing />
+        <Roadmap />
+        <Footer />
       </div>
       <ButtonGradient />
     </>
