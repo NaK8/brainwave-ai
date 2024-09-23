@@ -14,7 +14,7 @@ const Generating = ({ className }: GeneratingProps) => {
         className,
       )}
     >
-      <Image className="mr-4 size-5 animate-spin" src={loading} alt="loading" />
+      <Image className="mr-4 size-5" src={loading} alt="Loading" />
       AI is generating
     </div>
   );

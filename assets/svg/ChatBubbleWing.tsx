@@ -2,8 +2,8 @@ const ChatBubbleWing = ({
   className,
   pathClassName,
 }: {
-  className: string;
-  pathClassName: string;
+  className?: string;
+  pathClassName?: string;
 }) => {
   return (
     <svg
