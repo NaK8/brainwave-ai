@@ -1,9 +1,11 @@
+"use client";
+
 import Arrow from "@/assets/svg/Arrow";
 import Heading from "@/components/heading";
 import Section from "@/components/section";
 import { benefits } from "@/constants";
 import Image from "next/image";
-import { GradientLight } from "./design/Benefits";
+import { GradientLight } from "@/components/design/Benefits";
 import ClipPath from "@/assets/svg/ClipPath";
 
 const Benefits = () => {

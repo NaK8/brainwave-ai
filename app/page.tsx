@@ -1,7 +1,8 @@
 import ButtonGradient from "@/assets/svg/ButtonGradient";
-import Benefits from "@/components/benefits";
-import Header from "@/components/header";
-import Hero from "@/components/hero";
+import Benefits from "@/sections/Benefits";
+import Header from "@/sections/Header";
+import Hero from "@/sections/Hero";
+import Collaboration from "@/sections/Collaboration";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Header />
         <Hero />
         <Benefits />
+        <Collaboration />
       </div>
       <ButtonGradient />
     </>
